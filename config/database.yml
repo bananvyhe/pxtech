@@ -80,6 +80,6 @@ test:
 #
 production:
   <<: *default
-  database: pxtech_production
-  username: pxtech
+  database: pxtech_prod
+  username: deploy
   password: <%= ENV['PXTECH_DATABASE_PASSWORD'] %>
